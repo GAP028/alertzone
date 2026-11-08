@@ -1,0 +1,17 @@
+/* Import des styles de base Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Styles globaux de l'application */
+body {
+  @apply bg-background text-dark font-sans antialiased;
+  margin: 0;
+}
+
+/* Leaflet a besoin d'une hauteur explicite sur le conteneur de la carte */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}

@@ -1,0 +1,23 @@
+# Dépendances
+/node_modules/
+/backend/vendor/
+
+# Builds
+/dist/
+/backend/var/
+
+# Secrets et environnement
+.env
+.env.local
+*.env.local
+/backend/.env.local
+
+# Système / éditeur
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Sauvegardes
+*.bak
+src/App.mock.jsx.bak
